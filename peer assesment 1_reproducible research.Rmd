@@ -30,6 +30,7 @@ When writing code chunks in the R markdown document, always use echo = TRUE
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache = TRUE)
 ```
 
 set working directory
